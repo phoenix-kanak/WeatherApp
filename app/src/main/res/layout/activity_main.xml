@@ -47,7 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:fontFamily="sans-serif-medium"
-        android:text="Today"
+        android:text="@string/today"
         android:textColor="@color/black"
         android:textSize="30sp"
         app:layout_constraintTop_toBottomOf="@id/temp"
@@ -60,7 +60,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
-        android:text="00:00°C"
+        android:text="@string/_00_00_c1"
         android:textColor="@color/black"
         android:textSize="45sp"
 
@@ -117,7 +117,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:fontFamily="monospace"
-        android:text="Date"
+        android:text="@string/date"
         android:textSize="18sp"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="@+id/day"
@@ -168,7 +168,7 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-medium"
-                    android:text="00%"
+                    android:text="@string/_00"
                     android:textColor="@color/black" />
 
                 <TextView
@@ -180,7 +180,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-medium"
-                    android:text="Humidity"
+                    android:text="@string/humidity"
                     android:textColor="@color/black"
                     android:textSize="10sp" />
 
@@ -212,7 +212,7 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-medium"
-                    android:text="0.00 m/s"
+                    android:text="@string/_0_00_m_s"
                     android:textColor="@color/black" />
 
                 <TextView
@@ -224,7 +224,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-medium"
-                    android:text="Wind"
+                    android:text="@string/wind"
                     android:textColor="@color/black"
                     android:textSize="10sp" />
 
@@ -255,7 +255,7 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-medium"
-                    android:text="SUNNY"
+                    android:text="@string/sunny1"
                     android:textColor="@color/black" />
 
                 <TextView
@@ -351,7 +351,7 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-medium"
-                    android:text="00:00"
+                    android:text="@string/_00_00"
                     android:textColor="@color/black" />
 
                 <TextView
@@ -363,7 +363,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-medium"
-                    android:text="Sunset"
+                    android:text="@string/sunset"
                     android:textColor="@color/black"
                     android:textSize="10sp" />
 
@@ -393,7 +393,7 @@
                     android:layout_gravity="center_horizontal|center_vertical"
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-medium"
-                    android:text="0000hPa"
+                    android:text="@string/_0000hpa"
                     android:textColor="@color/black" />
 
                 <TextView
@@ -405,7 +405,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_weight="1"
                     android:fontFamily="sans-serif-medium"
-                    android:text="Sea"
+                    android:text="@string/sea"
                     android:textColor="@color/black"
                     android:textSize="10sp" />
 
